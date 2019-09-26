@@ -1,0 +1,453 @@
+@font-face{
+    font-family: 'LeagueGothic';
+    src: url(../fonts/leagueGothic.otf);
+}
+@font-face{
+    font-family: 'Open Sans Extrabold';
+    src: url(../fonts/openSansExtrabold.ttf);
+}
+@font-face{
+    font-family: 'Open Sans';
+    src: url(../fonts/openSansRegular.ttf);
+}
+@font-face{
+    font-family: 'Georgia';
+    src: url(../fonts/georgia.ttf);
+}
+#home, #about, #blog, #products, #loremIpsum, #dolorSitAmen{
+    width: 100%;
+}
+#home{
+    height: 869px;
+    background-image: url(../img/homeBg.png);
+    background-size: 100% 100%;
+}
+#about{
+    height: 343px;
+    background-image: url(../img/aboutBg.png);
+    border-top: 1px solid black;
+}
+#blog{
+    background-color: #f9f9f9;
+    height: 485px;
+    border-bottom: #e6e6e6 solid 1px;
+}
+#products{
+    height: 116px;
+    background-color: #f9f9f9;
+    border-bottom: 2px solid #fcfcfc;
+    border-top: 2px solid #fcfcfc;
+}
+#loremIpsum{
+    border-top: 1px solid #d7d7d7;
+    height: 395px;
+    background-color: #ececec;
+}
+#dolorSitAmen{
+    height: 114px;
+    background-image: url(../img/footerBg.png);
+}
+.container{
+    width: 960px;
+    margin: auto;
+    height: 100%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header{
+    height: 175px;
+    margin: auto;
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 102px;
+}
+nav{
+    width: 70%;
+}
+.navigate{
+    font-size: 24px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.405;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+.navigate li a:visited{
+    color: rgb(255, 255, 255);
+}
+.navigate li a:hover{
+    text-decoration: underline;
+    text-decoration-color: #f3c7ff;
+}
+.logo{
+    width: 10%;
+    font-size: 48px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 0.703;
+    text-align: left; 
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.logo span{
+    color: #4f3a5b;
+}
+#slaider{
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/overlay.png);
+}
+.iphoneText{
+    font-size: 60px;
+    font-family: "LeagueGothic";
+    color: rgb(254, 254, 254);
+    line-height: 0.6;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    width: 53%;
+}
+.iphoneText h1{
+    margin-bottom: 12px;
+}
+.iphoneText h2{
+    font-size: 30px;
+    color: #eec7fc;
+    margin-bottom: 10px;
+}
+#iphoneCopy{
+    position: relative;
+    height: 268px;
+    width: 130px;
+    background-image: url(../img/iPhone4copy.png);
+    left: 40px;
+}
+#iphone{
+    position: relative;
+    height: 434px;
+    width: 197px;
+    background-image: url(../img/iPhone4.png);
+    right: 20px;
+}
+#buttons{
+    width: 83px;
+    height: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-left: 60%;
+}
+.button{
+    width: 17px;
+    height: 17px;
+    background-image: url(../img/button.png);
+}
+.butns{
+    width: 60%;
+    margin: auto;
+    height: 100px;
+}
+.button:hover{
+    background-image: url(../img/buttonHover.png);
+    background-position: center;
+}
+.containersAbout{
+    width: 30%;
+    height: 70%;
+    display: flex;
+}
+.containerAbout{
+    width: 90%;
+    height: 100%;
+    margin-left: 3%;
+}
+.aboutText{
+    font-size: 30px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+    margin-bottom: 10px;
+}
+.text{
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: #e9e6e9;
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(15, 21, 24, 0.004);
+}
+.readMore{
+    font-size: 18px;
+    font-family: "LeagueGothic";
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+    text-align: left;
+    margin-top: 10px;
+    width: 100px;
+}
+.readMore:hover{
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+}
+.pctr1{
+    width: 30px;
+    height: 31px;
+    background-image: url(../img/pctr1.png);
+}
+.pctr2{
+    width: 33px;
+    height: 29px;
+    background-image: url(../img/pctr2.png);
+}
+.pctr3{
+    width: 29px;
+    height: 31px;
+    background-image: url(../img/pctr3.png);
+}
+.message{
+    width: 429px;
+    height: 294px;
+    background-image: url(../img/messageBox.png);
+    padding: 30px;
+    display: flex;
+}
+.messageText{
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(69, 69, 69);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+.messageTitle{
+    font-size: 30px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    text-transform: uppercase;
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+.messageTitle span{
+    color: #f4c0fe;
+}
+.buttons2{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    height: 20px;
+}
+.button2{
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/button2.png);
+}
+.button2:hover{
+    background-image: url(..//img/button2hover.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.update{
+    font-size: 30px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);      
+}
+.messageTextBold{
+    font-family: "Open Sans Extrabold";
+}
+.avatar1{
+    width: 49px;
+    height: 49px;
+    background-image: url(../img/avatar2.png);
+    margin-right: 5px;
+}
+.post{
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.readMoreHere{
+    font-size: 18px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 1.333;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    margin-top: 10px;  
+    width: 100%;
+    text-align: right;      
+}
+.log{
+    height: 65px;
+    background-image: url(../img/logos.png);
+}
+.log1{
+    width: 69px;
+}
+.log2{
+    width: 72px;
+    background-position-x: -134px;
+}
+.log3{
+    width: 65px;
+    background-position-x: -271px;
+}
+.log4{
+    width: 50px;
+    background-position-x: -410px;
+}
+.log5{
+    width: 103px;
+    background-position-x: -527px;
+}
+.log6{
+    width: 79px;
+    background-position-x: -696px
+}
+.infoBlock{
+    width: 31%;
+    height: 60%;
+}
+.logoText{
+    font-size: 48px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.703;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    margin-bottom: 10px;
+}
+.logoText span{
+    color: rgb(185, 185, 185);
+}
+.subtitleText{
+    font-size: 16px;
+    font-family: "Georgia";
+    color: rgb(197, 197, 197);
+    font-style: italic;
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+.infoText{
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(120, 120, 120);
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+}
+.titleText{
+    font-size: 30px;
+    font-family: "LeagueGothic";
+    color: rgb(69, 69, 69);
+    line-height: 0.8;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.004);
+    margin-bottom: 10px;
+}
+.copyright{
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 2.81;
+    text-align: left;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.copyright span{
+    font-family: "Open Sans Extrabold";
+}
+@media (max-width: 980px){
+    .container, #header{
+        width: 768px;
+    }
+    #loremIpsum{
+        height: 450px;
+    }
+}
+@media (max-width: 788px){
+    .container, #header{
+        width: 480px;
+    }
+    .flex{
+        flex-wrap: wrap;
+    }
+    nav{
+        width: 100%;
+        height: 60px;
+    }
+    .logo+nav{
+        display: none;
+    }
+    .logo{
+        width: 100%;
+        text-align: center;
+        margin-top: 80px;
+        font-size: 80px;
+    }
+    #iphoneCopy{
+        display: none;
+    }
+    .iphoneText .text{
+        display: none;
+    }
+    .iphoneText{
+        font-size: 48px;
+        line-height: 0.6;
+    }
+    .iphoneText h2{
+        font-size: 22px;
+    }
+    #about{
+        height: 443px;
+        background-size: cover;
+    }
+    .containersAbout{
+        width: 100%;
+        height: 30%;
+    }
+    .aboutText{
+        margin-bottom: 2px;
+    }
+    #blog{
+        height: 620px;
+    }
+    .readMore{
+        margin-top: 3px;
+    }
+    .blogCont{
+        width: 95%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .buttons2{
+        margin-top:10px;
+    }
+    #products{
+        height: 200px;
+    }
+    .infoBlock{
+        width:100%;
+        height: 30%;
+        margin-top: 20px;
+    }
+    #loremIpsum{
+        height: 600px;
+    }
+    .copyright{
+        width: 100%;
+        text-align: center;
+    }
+}
